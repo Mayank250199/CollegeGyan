@@ -1,0 +1,403 @@
+[2017-10-28 20:54:53.153] [DEBUG] debug - routes index webindex
+[2017-10-28 20:54:53.158] [DEBUG] debug - crud index checkSession
+[2017-10-28 20:54:53.195] [DEBUG] debug - crud result{ _id: 59e64c68158c282d5c1b649e,
+  useremail: 'mayank@gmail.com',
+  username: 'mayank1',
+  password1: '634a0d67e599e240e68bfa1196baa8253bc4e772473973af78fafe5c7e1aa3fa34bb6dffe3c5710ee2fc01ba7665092310bae1b1a90a96313d48296d373d4aa5',
+  role: 'customer',
+  salt: 'fe5470523b8de0b0',
+  userid: 'T0ZM9P4QeANSQBaPG3cj7vQFF4VZx6AT',
+  registrationdate: 2017-10-17T18:31:04.710Z,
+  emailverified: false,
+  __v: 0,
+  emailactivationtoken: 'lJ9c8JpiPWz4cU9ZTJZad1P44F7xGJhi',
+  passwordtokenstamp: 2017-10-17T19:15:45.353Z,
+  forgotpasswordtoken: 'FsUcgZYnEuE9thtLpWjmr8M2Szi0N5ci',
+  social: [] }
+[2017-10-28 20:54:53.197] [DEBUG] debug - config utils fillSession
+[2017-10-28 20:54:53.201] [DEBUG] debug - config utils fillWebSession
+[2017-10-28 20:55:22.989] [DEBUG] debug - routes index webindex
+[2017-10-28 20:55:22.990] [DEBUG] debug - crud index checkSession
+[2017-10-28 20:55:23.000] [DEBUG] debug - crud result{ _id: 59e64c68158c282d5c1b649e,
+  useremail: 'mayank@gmail.com',
+  username: 'mayank1',
+  password1: '634a0d67e599e240e68bfa1196baa8253bc4e772473973af78fafe5c7e1aa3fa34bb6dffe3c5710ee2fc01ba7665092310bae1b1a90a96313d48296d373d4aa5',
+  role: 'customer',
+  salt: 'fe5470523b8de0b0',
+  userid: 'T0ZM9P4QeANSQBaPG3cj7vQFF4VZx6AT',
+  registrationdate: 2017-10-17T18:31:04.710Z,
+  emailverified: false,
+  __v: 0,
+  emailactivationtoken: 'lJ9c8JpiPWz4cU9ZTJZad1P44F7xGJhi',
+  passwordtokenstamp: 2017-10-17T19:15:45.353Z,
+  forgotpasswordtoken: 'FsUcgZYnEuE9thtLpWjmr8M2Szi0N5ci',
+  social: [] }
+[2017-10-28 20:55:23.001] [DEBUG] debug - config utils fillSession
+[2017-10-28 20:55:23.001] [DEBUG] debug - config utils fillWebSession
+[2017-10-28 20:55:55.311] [DEBUG] debug - routes index webindex
+[2017-10-28 20:55:55.311] [DEBUG] debug - crud index checkSession
+[2017-10-28 20:55:55.318] [DEBUG] debug - crud result{ _id: 59e64c68158c282d5c1b649e,
+  useremail: 'mayank@gmail.com',
+  username: 'mayank1',
+  password1: '634a0d67e599e240e68bfa1196baa8253bc4e772473973af78fafe5c7e1aa3fa34bb6dffe3c5710ee2fc01ba7665092310bae1b1a90a96313d48296d373d4aa5',
+  role: 'customer',
+  salt: 'fe5470523b8de0b0',
+  userid: 'T0ZM9P4QeANSQBaPG3cj7vQFF4VZx6AT',
+  registrationdate: 2017-10-17T18:31:04.710Z,
+  emailverified: false,
+  __v: 0,
+  emailactivationtoken: 'lJ9c8JpiPWz4cU9ZTJZad1P44F7xGJhi',
+  passwordtokenstamp: 2017-10-17T19:15:45.353Z,
+  forgotpasswordtoken: 'FsUcgZYnEuE9thtLpWjmr8M2Szi0N5ci',
+  social: [] }
+[2017-10-28 20:55:55.318] [DEBUG] debug - config utils fillSession
+[2017-10-28 20:55:55.319] [DEBUG] debug - config utils fillWebSession
+[2017-10-28 20:56:11.663] [DEBUG] debug - routes index webindex
+[2017-10-28 20:56:11.667] [DEBUG] debug - crud index checkSession
+[2017-10-28 20:56:11.701] [DEBUG] debug - crud result{ _id: 59e64c68158c282d5c1b649e,
+  useremail: 'mayank@gmail.com',
+  username: 'mayank1',
+  password1: '634a0d67e599e240e68bfa1196baa8253bc4e772473973af78fafe5c7e1aa3fa34bb6dffe3c5710ee2fc01ba7665092310bae1b1a90a96313d48296d373d4aa5',
+  role: 'customer',
+  salt: 'fe5470523b8de0b0',
+  userid: 'T0ZM9P4QeANSQBaPG3cj7vQFF4VZx6AT',
+  registrationdate: 2017-10-17T18:31:04.710Z,
+  emailverified: false,
+  __v: 0,
+  emailactivationtoken: 'lJ9c8JpiPWz4cU9ZTJZad1P44F7xGJhi',
+  passwordtokenstamp: 2017-10-17T19:15:45.353Z,
+  forgotpasswordtoken: 'FsUcgZYnEuE9thtLpWjmr8M2Szi0N5ci',
+  social: [] }
+[2017-10-28 20:56:11.702] [DEBUG] debug - config utils fillSession
+[2017-10-28 20:56:11.708] [DEBUG] debug - config utils fillWebSession
+[2017-10-28 20:56:57.900] [DEBUG] debug - routes index webindex
+[2017-10-28 20:56:57.901] [DEBUG] debug - crud index checkSession
+[2017-10-28 20:56:57.912] [DEBUG] debug - crud result{ _id: 59e64c68158c282d5c1b649e,
+  useremail: 'mayank@gmail.com',
+  username: 'mayank1',
+  password1: '634a0d67e599e240e68bfa1196baa8253bc4e772473973af78fafe5c7e1aa3fa34bb6dffe3c5710ee2fc01ba7665092310bae1b1a90a96313d48296d373d4aa5',
+  role: 'customer',
+  salt: 'fe5470523b8de0b0',
+  userid: 'T0ZM9P4QeANSQBaPG3cj7vQFF4VZx6AT',
+  registrationdate: 2017-10-17T18:31:04.710Z,
+  emailverified: false,
+  __v: 0,
+  emailactivationtoken: 'lJ9c8JpiPWz4cU9ZTJZad1P44F7xGJhi',
+  passwordtokenstamp: 2017-10-17T19:15:45.353Z,
+  forgotpasswordtoken: 'FsUcgZYnEuE9thtLpWjmr8M2Szi0N5ci',
+  social: [] }
+[2017-10-28 20:56:57.913] [DEBUG] debug - config utils fillSession
+[2017-10-28 20:56:57.913] [DEBUG] debug - config utils fillWebSession
+[2017-10-28 20:57:03.369] [DEBUG] debug - routes index webindex
+[2017-10-28 20:57:03.370] [DEBUG] debug - crud index checkSession
+[2017-10-28 20:57:03.381] [DEBUG] debug - crud result{ _id: 59e64c68158c282d5c1b649e,
+  useremail: 'mayank@gmail.com',
+  username: 'mayank1',
+  password1: '634a0d67e599e240e68bfa1196baa8253bc4e772473973af78fafe5c7e1aa3fa34bb6dffe3c5710ee2fc01ba7665092310bae1b1a90a96313d48296d373d4aa5',
+  role: 'customer',
+  salt: 'fe5470523b8de0b0',
+  userid: 'T0ZM9P4QeANSQBaPG3cj7vQFF4VZx6AT',
+  registrationdate: 2017-10-17T18:31:04.710Z,
+  emailverified: false,
+  __v: 0,
+  emailactivationtoken: 'lJ9c8JpiPWz4cU9ZTJZad1P44F7xGJhi',
+  passwordtokenstamp: 2017-10-17T19:15:45.353Z,
+  forgotpasswordtoken: 'FsUcgZYnEuE9thtLpWjmr8M2Szi0N5ci',
+  social: [] }
+[2017-10-28 20:57:03.382] [DEBUG] debug - config utils fillSession
+[2017-10-28 20:57:03.383] [DEBUG] debug - config utils fillWebSession
+[2017-10-28 20:57:20.824] [DEBUG] debug - routes index webindex
+[2017-10-28 20:57:20.824] [DEBUG] debug - crud index checkSession
+[2017-10-28 20:57:20.828] [DEBUG] debug - crud result{ _id: 59e64c68158c282d5c1b649e,
+  useremail: 'mayank@gmail.com',
+  username: 'mayank1',
+  password1: '634a0d67e599e240e68bfa1196baa8253bc4e772473973af78fafe5c7e1aa3fa34bb6dffe3c5710ee2fc01ba7665092310bae1b1a90a96313d48296d373d4aa5',
+  role: 'customer',
+  salt: 'fe5470523b8de0b0',
+  userid: 'T0ZM9P4QeANSQBaPG3cj7vQFF4VZx6AT',
+  registrationdate: 2017-10-17T18:31:04.710Z,
+  emailverified: false,
+  __v: 0,
+  emailactivationtoken: 'lJ9c8JpiPWz4cU9ZTJZad1P44F7xGJhi',
+  passwordtokenstamp: 2017-10-17T19:15:45.353Z,
+  forgotpasswordtoken: 'FsUcgZYnEuE9thtLpWjmr8M2Szi0N5ci',
+  social: [] }
+[2017-10-28 20:57:20.828] [DEBUG] debug - config utils fillSession
+[2017-10-28 20:57:20.829] [DEBUG] debug - config utils fillWebSession
+[2017-10-28 20:57:46.197] [DEBUG] debug - routes index webindex
+[2017-10-28 20:57:46.198] [DEBUG] debug - crud index checkSession
+[2017-10-28 20:57:46.202] [DEBUG] debug - crud result{ _id: 59e64c68158c282d5c1b649e,
+  useremail: 'mayank@gmail.com',
+  username: 'mayank1',
+  password1: '634a0d67e599e240e68bfa1196baa8253bc4e772473973af78fafe5c7e1aa3fa34bb6dffe3c5710ee2fc01ba7665092310bae1b1a90a96313d48296d373d4aa5',
+  role: 'customer',
+  salt: 'fe5470523b8de0b0',
+  userid: 'T0ZM9P4QeANSQBaPG3cj7vQFF4VZx6AT',
+  registrationdate: 2017-10-17T18:31:04.710Z,
+  emailverified: false,
+  __v: 0,
+  emailactivationtoken: 'lJ9c8JpiPWz4cU9ZTJZad1P44F7xGJhi',
+  passwordtokenstamp: 2017-10-17T19:15:45.353Z,
+  forgotpasswordtoken: 'FsUcgZYnEuE9thtLpWjmr8M2Szi0N5ci',
+  social: [] }
+[2017-10-28 20:57:46.202] [DEBUG] debug - config utils fillSession
+[2017-10-28 20:57:46.203] [DEBUG] debug - config utils fillWebSession
+[2017-10-28 20:58:24.970] [DEBUG] debug - routes index webindex
+[2017-10-28 20:58:24.970] [DEBUG] debug - crud index checkSession
+[2017-10-28 20:58:24.974] [DEBUG] debug - crud result{ _id: 59e64c68158c282d5c1b649e,
+  useremail: 'mayank@gmail.com',
+  username: 'mayank1',
+  password1: '634a0d67e599e240e68bfa1196baa8253bc4e772473973af78fafe5c7e1aa3fa34bb6dffe3c5710ee2fc01ba7665092310bae1b1a90a96313d48296d373d4aa5',
+  role: 'customer',
+  salt: 'fe5470523b8de0b0',
+  userid: 'T0ZM9P4QeANSQBaPG3cj7vQFF4VZx6AT',
+  registrationdate: 2017-10-17T18:31:04.710Z,
+  emailverified: false,
+  __v: 0,
+  emailactivationtoken: 'lJ9c8JpiPWz4cU9ZTJZad1P44F7xGJhi',
+  passwordtokenstamp: 2017-10-17T19:15:45.353Z,
+  forgotpasswordtoken: 'FsUcgZYnEuE9thtLpWjmr8M2Szi0N5ci',
+  social: [] }
+[2017-10-28 20:58:24.974] [DEBUG] debug - config utils fillSession
+[2017-10-28 20:58:24.975] [DEBUG] debug - config utils fillWebSession
+[2017-10-28 20:59:38.452] [DEBUG] debug - routes index webindex
+[2017-10-28 20:59:38.452] [DEBUG] debug - crud index checkSession
+[2017-10-28 20:59:38.457] [DEBUG] debug - crud result{ _id: 59e64c68158c282d5c1b649e,
+  useremail: 'mayank@gmail.com',
+  username: 'mayank1',
+  password1: '634a0d67e599e240e68bfa1196baa8253bc4e772473973af78fafe5c7e1aa3fa34bb6dffe3c5710ee2fc01ba7665092310bae1b1a90a96313d48296d373d4aa5',
+  role: 'customer',
+  salt: 'fe5470523b8de0b0',
+  userid: 'T0ZM9P4QeANSQBaPG3cj7vQFF4VZx6AT',
+  registrationdate: 2017-10-17T18:31:04.710Z,
+  emailverified: false,
+  __v: 0,
+  emailactivationtoken: 'lJ9c8JpiPWz4cU9ZTJZad1P44F7xGJhi',
+  passwordtokenstamp: 2017-10-17T19:15:45.353Z,
+  forgotpasswordtoken: 'FsUcgZYnEuE9thtLpWjmr8M2Szi0N5ci',
+  social: [] }
+[2017-10-28 20:59:38.457] [DEBUG] debug - config utils fillSession
+[2017-10-28 20:59:38.458] [DEBUG] debug - config utils fillWebSession
+[2017-10-28 21:00:06.353] [DEBUG] debug - routes index webindex
+[2017-10-28 21:00:06.357] [DEBUG] debug - crud index checkSession
+[2017-10-28 21:00:06.390] [DEBUG] debug - crud result{ _id: 59e64c68158c282d5c1b649e,
+  useremail: 'mayank@gmail.com',
+  username: 'mayank1',
+  password1: '634a0d67e599e240e68bfa1196baa8253bc4e772473973af78fafe5c7e1aa3fa34bb6dffe3c5710ee2fc01ba7665092310bae1b1a90a96313d48296d373d4aa5',
+  role: 'customer',
+  salt: 'fe5470523b8de0b0',
+  userid: 'T0ZM9P4QeANSQBaPG3cj7vQFF4VZx6AT',
+  registrationdate: 2017-10-17T18:31:04.710Z,
+  emailverified: false,
+  __v: 0,
+  emailactivationtoken: 'lJ9c8JpiPWz4cU9ZTJZad1P44F7xGJhi',
+  passwordtokenstamp: 2017-10-17T19:15:45.353Z,
+  forgotpasswordtoken: 'FsUcgZYnEuE9thtLpWjmr8M2Szi0N5ci',
+  social: [] }
+[2017-10-28 21:00:06.391] [DEBUG] debug - config utils fillSession
+[2017-10-28 21:00:06.397] [DEBUG] debug - config utils fillWebSession
+[2017-10-28 21:00:11.262] [DEBUG] debug - routes index logout
+[2017-10-28 21:00:11.262] [DEBUG] debug - crud index destroySession
+[2017-10-28 21:00:11.262] [DEBUG] debug - config utils webSessionDestroy
+[2017-10-28 21:00:11.576] [DEBUG] debug - routes index webindex
+[2017-10-28 21:00:22.180] [DEBUG] debug - routes login login
+[2017-10-28 21:00:22.180] [DEBUG] debug - validate email
+[2017-10-28 21:00:22.180] [DEBUG] debug - validate username
+[2017-10-28 21:00:22.181] [DEBUG] debug - validate mobile
+[2017-10-28 21:00:22.181] [DEBUG] debug - validate password
+[2017-10-28 21:00:22.181] [DEBUG] debug - crud login doLogin
+[2017-10-28 21:00:22.185] [DEBUG] debug - crud result{ _id: 59e64c68158c282d5c1b649e,
+  useremail: 'mayank@gmail.com',
+  username: 'mayank1',
+  password1: '634a0d67e599e240e68bfa1196baa8253bc4e772473973af78fafe5c7e1aa3fa34bb6dffe3c5710ee2fc01ba7665092310bae1b1a90a96313d48296d373d4aa5',
+  role: 'customer',
+  salt: 'fe5470523b8de0b0',
+  userid: 'T0ZM9P4QeANSQBaPG3cj7vQFF4VZx6AT',
+  registrationdate: 2017-10-17T18:31:04.710Z,
+  emailverified: false,
+  __v: 0,
+  emailactivationtoken: 'lJ9c8JpiPWz4cU9ZTJZad1P44F7xGJhi',
+  passwordtokenstamp: 2017-10-17T19:15:45.353Z,
+  forgotpasswordtoken: 'FsUcgZYnEuE9thtLpWjmr8M2Szi0N5ci',
+  social: [] }
+[2017-10-28 21:00:22.186] [DEBUG] debug - config encrypt sha512
+[2017-10-28 21:00:22.187] [DEBUG] debug - config utils fillSession
+[2017-10-28 21:00:22.187] [DEBUG] debug - config utils fillWebSession
+[2017-10-28 21:00:22.197] [DEBUG] debug - routes index webindex
+[2017-10-28 21:00:22.197] [DEBUG] debug - crud index checkSession
+[2017-10-28 21:00:22.200] [DEBUG] debug - crud result{ _id: 59e64c68158c282d5c1b649e,
+  useremail: 'mayank@gmail.com',
+  username: 'mayank1',
+  password1: '634a0d67e599e240e68bfa1196baa8253bc4e772473973af78fafe5c7e1aa3fa34bb6dffe3c5710ee2fc01ba7665092310bae1b1a90a96313d48296d373d4aa5',
+  role: 'customer',
+  salt: 'fe5470523b8de0b0',
+  userid: 'T0ZM9P4QeANSQBaPG3cj7vQFF4VZx6AT',
+  registrationdate: 2017-10-17T18:31:04.710Z,
+  emailverified: false,
+  __v: 0,
+  emailactivationtoken: 'lJ9c8JpiPWz4cU9ZTJZad1P44F7xGJhi',
+  passwordtokenstamp: 2017-10-17T19:15:45.353Z,
+  forgotpasswordtoken: 'FsUcgZYnEuE9thtLpWjmr8M2Szi0N5ci',
+  social: [] }
+[2017-10-28 21:00:22.201] [DEBUG] debug - config utils fillSession
+[2017-10-28 21:00:22.201] [DEBUG] debug - config utils fillWebSession
+[2017-10-28 21:01:38.083] [DEBUG] debug - routes index webindex
+[2017-10-28 21:01:38.089] [DEBUG] debug - crud index checkSession
+[2017-10-28 21:01:38.126] [DEBUG] debug - crud result{ _id: 59e64c68158c282d5c1b649e,
+  useremail: 'mayank@gmail.com',
+  username: 'mayank1',
+  password1: '634a0d67e599e240e68bfa1196baa8253bc4e772473973af78fafe5c7e1aa3fa34bb6dffe3c5710ee2fc01ba7665092310bae1b1a90a96313d48296d373d4aa5',
+  role: 'customer',
+  salt: 'fe5470523b8de0b0',
+  userid: 'T0ZM9P4QeANSQBaPG3cj7vQFF4VZx6AT',
+  registrationdate: 2017-10-17T18:31:04.710Z,
+  emailverified: false,
+  __v: 0,
+  emailactivationtoken: 'lJ9c8JpiPWz4cU9ZTJZad1P44F7xGJhi',
+  passwordtokenstamp: 2017-10-17T19:15:45.353Z,
+  forgotpasswordtoken: 'FsUcgZYnEuE9thtLpWjmr8M2Szi0N5ci',
+  social: [] }
+[2017-10-28 21:01:38.127] [DEBUG] debug - config utils fillSession
+[2017-10-28 21:01:38.130] [DEBUG] debug - config utils fillWebSession
+[2017-10-28 21:02:06.750] [DEBUG] debug - routes index webindex
+[2017-10-28 21:02:06.755] [DEBUG] debug - crud index checkSession
+[2017-10-28 21:02:06.794] [DEBUG] debug - crud result{ _id: 59e64c68158c282d5c1b649e,
+  useremail: 'mayank@gmail.com',
+  username: 'mayank1',
+  password1: '634a0d67e599e240e68bfa1196baa8253bc4e772473973af78fafe5c7e1aa3fa34bb6dffe3c5710ee2fc01ba7665092310bae1b1a90a96313d48296d373d4aa5',
+  role: 'customer',
+  salt: 'fe5470523b8de0b0',
+  userid: 'T0ZM9P4QeANSQBaPG3cj7vQFF4VZx6AT',
+  registrationdate: 2017-10-17T18:31:04.710Z,
+  emailverified: false,
+  __v: 0,
+  emailactivationtoken: 'lJ9c8JpiPWz4cU9ZTJZad1P44F7xGJhi',
+  passwordtokenstamp: 2017-10-17T19:15:45.353Z,
+  forgotpasswordtoken: 'FsUcgZYnEuE9thtLpWjmr8M2Szi0N5ci',
+  social: [] }
+[2017-10-28 21:02:06.795] [DEBUG] debug - config utils fillSession
+[2017-10-28 21:02:06.799] [DEBUG] debug - config utils fillWebSession
+[2017-10-28 21:02:29.510] [DEBUG] debug - routes index webindex
+[2017-10-28 21:02:29.513] [DEBUG] debug - crud index checkSession
+[2017-10-28 21:02:29.553] [DEBUG] debug - crud result{ _id: 59e64c68158c282d5c1b649e,
+  useremail: 'mayank@gmail.com',
+  username: 'mayank1',
+  password1: '634a0d67e599e240e68bfa1196baa8253bc4e772473973af78fafe5c7e1aa3fa34bb6dffe3c5710ee2fc01ba7665092310bae1b1a90a96313d48296d373d4aa5',
+  role: 'customer',
+  salt: 'fe5470523b8de0b0',
+  userid: 'T0ZM9P4QeANSQBaPG3cj7vQFF4VZx6AT',
+  registrationdate: 2017-10-17T18:31:04.710Z,
+  emailverified: false,
+  __v: 0,
+  emailactivationtoken: 'lJ9c8JpiPWz4cU9ZTJZad1P44F7xGJhi',
+  passwordtokenstamp: 2017-10-17T19:15:45.353Z,
+  forgotpasswordtoken: 'FsUcgZYnEuE9thtLpWjmr8M2Szi0N5ci',
+  social: [] }
+[2017-10-28 21:02:29.555] [DEBUG] debug - config utils fillSession
+[2017-10-28 21:02:29.560] [DEBUG] debug - config utils fillWebSession
+[2017-10-28 21:02:51.929] [DEBUG] debug - routes index webindex
+[2017-10-28 21:02:51.933] [DEBUG] debug - crud index checkSession
+[2017-10-28 21:02:51.973] [DEBUG] debug - crud result{ _id: 59e64c68158c282d5c1b649e,
+  useremail: 'mayank@gmail.com',
+  username: 'mayank1',
+  password1: '634a0d67e599e240e68bfa1196baa8253bc4e772473973af78fafe5c7e1aa3fa34bb6dffe3c5710ee2fc01ba7665092310bae1b1a90a96313d48296d373d4aa5',
+  role: 'customer',
+  salt: 'fe5470523b8de0b0',
+  userid: 'T0ZM9P4QeANSQBaPG3cj7vQFF4VZx6AT',
+  registrationdate: 2017-10-17T18:31:04.710Z,
+  emailverified: false,
+  __v: 0,
+  emailactivationtoken: 'lJ9c8JpiPWz4cU9ZTJZad1P44F7xGJhi',
+  passwordtokenstamp: 2017-10-17T19:15:45.353Z,
+  forgotpasswordtoken: 'FsUcgZYnEuE9thtLpWjmr8M2Szi0N5ci',
+  social: [] }
+[2017-10-28 21:02:51.977] [DEBUG] debug - config utils fillSession
+[2017-10-28 21:02:51.986] [DEBUG] debug - config utils fillWebSession
+[2017-10-28 21:04:12.606] [DEBUG] debug - routes index webindex
+[2017-10-28 21:04:12.610] [DEBUG] debug - crud index checkSession
+[2017-10-28 21:04:12.652] [DEBUG] debug - crud result{ _id: 59e64c68158c282d5c1b649e,
+  useremail: 'mayank@gmail.com',
+  username: 'mayank1',
+  password1: '634a0d67e599e240e68bfa1196baa8253bc4e772473973af78fafe5c7e1aa3fa34bb6dffe3c5710ee2fc01ba7665092310bae1b1a90a96313d48296d373d4aa5',
+  role: 'customer',
+  salt: 'fe5470523b8de0b0',
+  userid: 'T0ZM9P4QeANSQBaPG3cj7vQFF4VZx6AT',
+  registrationdate: 2017-10-17T18:31:04.710Z,
+  emailverified: false,
+  __v: 0,
+  emailactivationtoken: 'lJ9c8JpiPWz4cU9ZTJZad1P44F7xGJhi',
+  passwordtokenstamp: 2017-10-17T19:15:45.353Z,
+  forgotpasswordtoken: 'FsUcgZYnEuE9thtLpWjmr8M2Szi0N5ci',
+  social: [] }
+[2017-10-28 21:04:12.654] [DEBUG] debug - config utils fillSession
+[2017-10-28 21:04:12.660] [DEBUG] debug - config utils fillWebSession
+[2017-10-28 21:04:50.206] [DEBUG] debug - routes index webindex
+[2017-10-28 21:04:50.210] [DEBUG] debug - crud index checkSession
+[2017-10-28 21:04:50.250] [DEBUG] debug - crud result{ _id: 59e64c68158c282d5c1b649e,
+  useremail: 'mayank@gmail.com',
+  username: 'mayank1',
+  password1: '634a0d67e599e240e68bfa1196baa8253bc4e772473973af78fafe5c7e1aa3fa34bb6dffe3c5710ee2fc01ba7665092310bae1b1a90a96313d48296d373d4aa5',
+  role: 'customer',
+  salt: 'fe5470523b8de0b0',
+  userid: 'T0ZM9P4QeANSQBaPG3cj7vQFF4VZx6AT',
+  registrationdate: 2017-10-17T18:31:04.710Z,
+  emailverified: false,
+  __v: 0,
+  emailactivationtoken: 'lJ9c8JpiPWz4cU9ZTJZad1P44F7xGJhi',
+  passwordtokenstamp: 2017-10-17T19:15:45.353Z,
+  forgotpasswordtoken: 'FsUcgZYnEuE9thtLpWjmr8M2Szi0N5ci',
+  social: [] }
+[2017-10-28 21:04:50.251] [DEBUG] debug - config utils fillSession
+[2017-10-28 21:04:50.254] [DEBUG] debug - config utils fillWebSession
+[2017-10-28 21:05:15.485] [DEBUG] debug - routes index webindex
+[2017-10-28 21:05:15.486] [DEBUG] debug - crud index checkSession
+[2017-10-28 21:05:15.493] [DEBUG] debug - crud result{ _id: 59e64c68158c282d5c1b649e,
+  useremail: 'mayank@gmail.com',
+  username: 'mayank1',
+  password1: '634a0d67e599e240e68bfa1196baa8253bc4e772473973af78fafe5c7e1aa3fa34bb6dffe3c5710ee2fc01ba7665092310bae1b1a90a96313d48296d373d4aa5',
+  role: 'customer',
+  salt: 'fe5470523b8de0b0',
+  userid: 'T0ZM9P4QeANSQBaPG3cj7vQFF4VZx6AT',
+  registrationdate: 2017-10-17T18:31:04.710Z,
+  emailverified: false,
+  __v: 0,
+  emailactivationtoken: 'lJ9c8JpiPWz4cU9ZTJZad1P44F7xGJhi',
+  passwordtokenstamp: 2017-10-17T19:15:45.353Z,
+  forgotpasswordtoken: 'FsUcgZYnEuE9thtLpWjmr8M2Szi0N5ci',
+  social: [] }
+[2017-10-28 21:05:15.493] [DEBUG] debug - config utils fillSession
+[2017-10-28 21:05:15.494] [DEBUG] debug - config utils fillWebSession
+[2017-10-28 21:05:42.687] [DEBUG] debug - routes index webindex
+[2017-10-28 21:05:42.687] [DEBUG] debug - crud index checkSession
+[2017-10-28 21:05:42.694] [DEBUG] debug - crud result{ _id: 59e64c68158c282d5c1b649e,
+  useremail: 'mayank@gmail.com',
+  username: 'mayank1',
+  password1: '634a0d67e599e240e68bfa1196baa8253bc4e772473973af78fafe5c7e1aa3fa34bb6dffe3c5710ee2fc01ba7665092310bae1b1a90a96313d48296d373d4aa5',
+  role: 'customer',
+  salt: 'fe5470523b8de0b0',
+  userid: 'T0ZM9P4QeANSQBaPG3cj7vQFF4VZx6AT',
+  registrationdate: 2017-10-17T18:31:04.710Z,
+  emailverified: false,
+  __v: 0,
+  emailactivationtoken: 'lJ9c8JpiPWz4cU9ZTJZad1P44F7xGJhi',
+  passwordtokenstamp: 2017-10-17T19:15:45.353Z,
+  forgotpasswordtoken: 'FsUcgZYnEuE9thtLpWjmr8M2Szi0N5ci',
+  social: [] }
+[2017-10-28 21:05:42.695] [DEBUG] debug - config utils fillSession
+[2017-10-28 21:05:42.697] [DEBUG] debug - config utils fillWebSession
+[2017-10-28 21:05:50.303] [DEBUG] debug - routes index webindex
+[2017-10-28 21:05:50.303] [DEBUG] debug - crud index checkSession
+[2017-10-28 21:05:50.306] [DEBUG] debug - crud result{ _id: 59e64c68158c282d5c1b649e,
+  useremail: 'mayank@gmail.com',
+  username: 'mayank1',
+  password1: '634a0d67e599e240e68bfa1196baa8253bc4e772473973af78fafe5c7e1aa3fa34bb6dffe3c5710ee2fc01ba7665092310bae1b1a90a96313d48296d373d4aa5',
+  role: 'customer',
+  salt: 'fe5470523b8de0b0',
+  userid: 'T0ZM9P4QeANSQBaPG3cj7vQFF4VZx6AT',
+  registrationdate: 2017-10-17T18:31:04.710Z,
+  emailverified: false,
+  __v: 0,
+  emailactivationtoken: 'lJ9c8JpiPWz4cU9ZTJZad1P44F7xGJhi',
+  passwordtokenstamp: 2017-10-17T19:15:45.353Z,
+  forgotpasswordtoken: 'FsUcgZYnEuE9thtLpWjmr8M2Szi0N5ci',
+  social: [] }
