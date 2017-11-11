@@ -35,6 +35,7 @@ router.get('/', function(req, res, next) {
 
 });
 
+
 /* GET home page. */
 router.get('/college',IsAuthenticated, function(req, res, next) {
 

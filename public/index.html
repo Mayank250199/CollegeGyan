@@ -66,8 +66,8 @@
 
           <div  style="float:right; color:white; " ng-cloak >
                 <div style="" ng-hide="ActivationStatus">{{Status}}</div>
-                <div ng-cloak ><a style=" color:white;" ng-hide="LogoutButton" href="index.html">Home</a>&nbsp;&nbsp;<a style=" color:white;" ng-hide="LogoutButton" ng-hide="ActivationStatus" ng-hide="sendLinkButton" ng-click="SendActivationLink()">Send Link Again</a>&nbsp;&nbsp;
-
+                <div ng-cloak ><a style=" color:white;" ng-hide="LogoutButton" href="index.html">Home</a>&nbsp;&nbsp;
+                    <a style="color:white;" ng-hide="ProfileButton"  href="/#profile">Profile</a>&nbsp;&nbsp;
                   <a style="color:white;" ng-hide="LogoutButton"  href="/college">Add your college</a>&nbsp;&nbsp;
 <a style="color:white;" ng-hide="LogoutButton" href="/collegefind">Find colleges</a>&nbsp;&nbsp;
 <a style="color:white;" ng-hide="LogoutButton"  href="/school">Add your School</a>&nbsp;&nbsp;
@@ -83,7 +83,7 @@
            <li ><a ng-hide="SignupButton" style="color:white" href="index.html">Home</a></li>
             <li ng-hide="SignupButton"><a style="color:white" ng-href="/#signup">Signup</a></li>
               <li ng-hide="LoginButton"><a style="color:white" ng-href="/#login">Login</a></li>
-
+            
             </ul>
 
           </div>
