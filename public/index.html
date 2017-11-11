@@ -63,19 +63,20 @@
           </div>
 
 
-        <div  style="float:right; color:white; " ng-cloak ng-hide="ActivationStatus">
-          <div  style="float:right; color:white; " ng-cloak ng-hide="ActivationStatus">
-                <div style="">{{Status}}</div>
-                <div ng-cloak><a style=" color:white;"  href="index.html">Home</a>&nbsp;&nbsp;<a style=" color:white;"  ng-hide="sendLinkButton" ng-click="SendActivationLink()">Send Link Again</a>&nbsp;&nbsp;
 
-                  <a style="color:white;"  href="/college">Add your college</a>&nbsp;&nbsp;
-<a style="color:white;"  href="/collegefind">Find colleges</a>&nbsp;&nbsp;
+          <div  style="float:right; color:white; " ng-cloak >
+                <div style="" ng-hide="ActivationStatus">{{Status}}</div>
+                <div ng-cloak ><a style=" color:white;" ng-hide="LogoutButton" href="index.html">Home</a>&nbsp;&nbsp;<a style=" color:white;" ng-hide="LogoutButton" ng-hide="ActivationStatus" ng-hide="sendLinkButton" ng-click="SendActivationLink()">Send Link Again</a>&nbsp;&nbsp;
+
+                  <a style="color:white;" ng-hide="LogoutButton"  href="/college">Add your college</a>&nbsp;&nbsp;
+<a style="color:white;" ng-hide="LogoutButton" href="/collegefind">Find colleges</a>&nbsp;&nbsp;
+<a style="color:white;" ng-hide="LogoutButton"  href="/school">Add your School</a>&nbsp;&nbsp;
+<a style="color:white;" ng-hide="LogoutButton" href="/schoolfind">Find School</a>&nbsp;&nbsp;
         <a ng-hide="LogoutButton" style="color:white;"  ng-click="Logout()">Logout</a>{{LogoutMessage}}&nbsp;&nbsp;{{ActivationMessage}}</div>
 
         </div>
 
 
-</div>
           <div class="collapse navbar-collapse" id="js-navbar-collapse" >
 
             <ul class="nav navbar-nav navbar-right" >

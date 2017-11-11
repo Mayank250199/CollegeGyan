@@ -4,6 +4,7 @@ const secrets={
     dbUrl:"mongodb://localhost:27017/webskeleton",
     dbCollection:"users",
     dbCollection1:"colleges",
+    dbCollection2:"schools",
 
     sessionCollection:"appsessions",
     sessionKey:["ggggg","aaaaa","sssssss","hhhhh","ffff","kkkkkk","ttt","aaaa"],
