@@ -190,7 +190,7 @@ var newUser = new User({
 			console.log(user);
 });
 });
-res.redirect("/collegefind");
+res.redirect("/college");
   });
 
 
@@ -273,7 +273,7 @@ var newUser1 = new School({
 			console.log(user);
 });
 });
-res.redirect("/schoolfind");
+res.redirect("/school");
   });
 
 
