@@ -1303,6 +1303,7 @@ html, body, div, span, applet, object, iframe, blockquote, pre, a, abbr, acronym
                   <p>{{this.typeOf}}</p>
                   <p>{{this.Catagory}}</p>
                   <p>{{this.description}}</p>
+		  <p>rating:&nbsp;&nbsp;{{this.comment.length}}/10</p>
                   <form action="/school/reviewadd/{{this._id}}"  method="post" class="form-box">
 
 		 <input type="text"  name="review" class="inp" placeholder="review" required>
