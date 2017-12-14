@@ -6,11 +6,197 @@
 <style>
    body {
        padding-top: 150px;
-        background: url(../images/profile.jpg);
+      background-color:
        /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
    }
 
    .othertop{margin-top:10px;}
+
+
+
+   /* Banner */
+
+   	body.is-loading #banner > .inner {
+   		opacity: 0;
+   		-moz-transform: translateY(1em);
+   		-webkit-transform: translateY(1em);
+   		-ms-transform: translateY(1em);
+   		transform: translateY(1em);
+   	}
+
+   	#banner {
+   		display: -ms-flexbox;
+   		-ms-flex-pack: center;
+   		-ms-flex-align: center;
+   		padding: 8em 0 6em 0;
+   		-moz-align-items: center;
+   		-webkit-align-items: center;
+   		-ms-align-items: center;
+   		align-items: center;
+   		display: -moz-flex;
+   		display: -webkit-flex;
+   		display: -ms-flex;
+   		display: flex;
+   		-moz-justify-content: center;
+   		-webkit-justify-content: center;
+   		-ms-justify-content: center;
+   		justify-content: center;
+   		min-height: 75vh;
+   		height: 75vh;
+   		position: relative;
+   		background: #000;
+   		background-image: url(../../images/slide01.jpg);
+   		background-size: cover;
+   		background-attachment: fixed;
+   		background-repeat: no-repeat;
+   		background-position: center;
+   		text-align: center;
+   		color: #FFF;
+   	}
+
+   		#banner:before {
+   			-moz-transition: opacity 3s ease;
+   			-webkit-transition: opacity 3s ease;
+   			-ms-transition: opacity 3s ease;
+   			transition: opacity 3s ease;
+   			-moz-transition-delay: 0.25s;
+   			-webkit-transition-delay: 0.25s;
+   			-ms-transition-delay: 0.25s;
+   			transition-delay: 0.25s;
+   			content: '';
+   			display: block;
+   			background-color: #000;
+   			height: 100%;
+   			left: 0;
+   			opacity: 0.65;
+   			position: absolute;
+   			top: 0;
+   			width: 100%;
+   			z-index: 1;
+   		}
+
+   		#banner .inner {
+   			-moz-transform: none;
+   			-webkit-transform: none;
+   			-ms-transform: none;
+   			transform: none;
+   			-moz-transition: opacity 1s ease, transform 1s ease;
+   			-webkit-transition: opacity 1s ease, transform 1s ease;
+   			-ms-transition: opacity 1s ease, transform 1s ease;
+   			transition: opacity 1s ease, transform 1s ease;
+   			position: relative;
+   			opacity: 1;
+   			z-index: 3;
+   			padding: 0 2em;
+   		}
+
+   		#banner h1 {
+   			font-size: 4em;
+   			line-height: 1em;
+   			margin: 0 0 0.5em 0;
+   			padding: 0;
+   			color: #FFF;
+   		}
+
+   		#banner p {
+   			font-size: 1.5em;
+   			margin-bottom: 1.75em;
+   		}
+
+   		#banner a {
+   			color: #FFF;
+   			text-decoration: none;
+   		}
+
+   		@media screen and (max-width: 1280px) {
+
+   			#banner h1 {
+   				font-size: 3.5em;
+   			}
+
+   		}
+
+   		@media screen and (max-width: 736px) {
+
+   			#banner {
+   				background-attachment: scroll;
+   			}
+
+   				#banner h1 {
+   					font-size: 2.25em;
+   				}
+
+   				#banner p {
+   					font-size: 1.25em;
+   				}
+
+   		}
+
+   /* Main */
+
+   	#main {
+   		background: #f1f1f1;
+   		width: 100%;
+   	}
+
+   		#main #header {
+   			background: #e6e6e6;
+   			padding: 1.15em 3.5em;
+   			text-align: right;
+   		}
+
+   			#main #header h1 {
+   				margin: 0;
+   				font-size: 1em;
+   			}
+
+   			@media screen and (max-width: 980px) {
+
+   				#main #header {
+   					padding: 1.15em 2em;
+   				}
+
+   			}
+
+   			@media screen and (max-width: 736px) {
+
+   				#main #header {
+   					text-align: center;
+   				}
+
+   			}
+
+   /* Footer */
+
+   	#footer {
+   		padding: 4em 0 2em 0;
+   		background: #f2f2f2;
+   	}
+
+   		#footer .copyright {
+   			color: #bfbfbf;
+   			font-size: 0.9em;
+   			margin: 0 0 2em 0;
+   			padding: 0 1em;
+   			text-align: center;
+   		}
+
+   		@media screen and (max-width: 736px) {
+
+   			#footer {
+   				padding: 3em 0 1em 0;
+   			}
+
+   		}
+
+   		label {
+   		display: block;
+   		font-size: 0.9em;
+   		font-weight: 700;
+   		margin: 0 0 1em 0;
+   	}
+
+
    </style>
 
    <div class="container">
@@ -20,8 +206,16 @@
  <fieldset>
 
 
+   <section id="main">
 
-<legend>User Profile</legend>
+ 					<!-- Banner -->
+ 						<section id="banner">
+ 							<div class="inner">
+ 								<h1>Hey, {{Email}}</h1>
+
+
+ 							</div>
+ 						</section>
 <h5><center><strong>  Email : {{Email}}</strong></center></h5>
 <div class="form-group">
 
@@ -77,17 +271,21 @@
 
 <div ng-hide="Profile">
 <legend>Your Saved Profile</legend>
-    <label class="col-md-14 control-label">Name: {{Name||"Not Saved"}}</label>
-      <label class="col-md-14 control-label">Address</label>
-        <label class="col-md-14 control-label">Area: {{Area||"Not Saved"}}</label>
-          <label class="col-md-14 control-label">City: {{City||"Not Saved"}}</label>
-            <label class="col-md-14 control-label">State:{{State||"Not Saved"}}</label>
-              <label class="col-md-14 control-label">Pincode:{{Pincode||"Not Saved"}}</label>
-                <label class="col-md-14 control-label">Country: {{Country||"Not Saved"}}</label>
-                  <label class="col-md-0 control-label">Mobile Number: {{Mobile||"Not Saved"}}</label>
-                  <br><br /><br><br>
+
+  <label class="col-md-14 control-label">Name: {{Name||"Not Saved"}}</label>
+    <label class="col-md-14 control-label">Address</label>
+      <label class="col-md-14 control-label">Area: {{Area||"Not Saved"}}</label>
+        <label class="col-md-14 control-label">City: {{City||"Not Saved"}}</label>
+          <label class="col-md-14 control-label">State:{{State||"Not Saved"}}</label>
+            <label class="col-md-14 control-label">Pincode:{{Pincode||"Not Saved"}}</label>
+              <label class="col-md-14 control-label">Country: {{Country||"Not Saved"}}</label>
+                <label class="col-md-0 control-label">Mobile Number: {{Mobile||"Not Saved"}}</label>
+                <br><br /><br><br>
+
+
 </div>
 
+   <div class="login-box">
 <div ng-hide="ProfileForm">
 <form name="profForm" ng-submit="submitProfileForm(profForm)" novalidate>
     <h5>Full Name</h5>
@@ -180,7 +378,8 @@
 
 </form>
 </div>
-
+   </div>
+<!--
 <div ng-hide="MobileForm">
     <div ng-hide="HideMobileForm" >
         <form name="mobileForm" ng-submit="submitMobileForm(mobileForm)" novalidate>
@@ -233,7 +432,7 @@
             codeForm.vCode.$error.required">Cannot be left empty </span>-->
             <!--<span  ng-show="CodeSubmitted && !codeForm.vCode.$touched &&
             codeForm.vCode.$error.required">
-                Cannot be left empty </span>-->
+                Cannot be left empty </span>
             <span  ng-show="CodeSubmitted && !codeForm.vCode.$touched &&
             codeForm.vCode.$error.pattern">
             Invalid code Format</span>
@@ -245,8 +444,8 @@
         </form>
 
     </div>
-</div>
-
+-->
+<!--
 <div ng-hide="PasswordForm">
 <form name="passForm"  ng-submit="submitPasswordForm(passForm)" novalidate>
 
@@ -287,12 +486,12 @@
 
 {{PasswordResult}}
 </div>
-
+-->
 
 
 <input class="btn btn-primary" type="button" ng-hide="ProfileFormButton" ng-click="ShowProfileForm()" value="Edit Profile" />
-<!-- <input class="btn btn-danger" type="button" ng-hide="MobileFormButton" ng-click="ShowMobileForm()" value="Edit Mobile" />
-<input class="btn btn-success" type="button" ng-hide="PasswordFormButton" ng-click="ShowPasswordForm()" value="Change Password" /> -->
+<!--<input class="btn btn-danger" type="button" ng-hide="MobileFormButton" ng-click="ShowMobileForm()" value="Edit Mobile" />
+<input class="btn btn-success" type="button" ng-hide="PasswordFormButton" ng-click="ShowPasswordForm()" value="Change Password" />-->
 </fieldset>
 
 
