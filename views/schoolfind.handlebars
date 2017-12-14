@@ -1217,6 +1217,14 @@ td, th {
 		text-align: left;
 		padding: 8px;
 }
+.ellipsis {
+  text-overflow:visible;
+
+  /* Required for text-overflow to do anything */
+  white-space: nowrap;
+  overflow: hidden;
+}
+
 </style>
 <div class="back">
 <nav class="navbar navbar-inverse  navbar-fixed-top" id="my-navbar" role"navigation">
@@ -1386,7 +1394,7 @@ td, th {
                   <p>Category:{{this.Catagory}}</p>
                   <p>Description:{{this.description}}</p>
 									<p>Rating:&nbsp;&nbsp;{{this.comment.length}}/10</p>-->
-									
+									<div style="overflow-y:auto">
 									<table>
 
 									  <tr>
@@ -1409,7 +1417,7 @@ td, th {
 
 										<tr>
 									<td>Description</td>
-									<td>{{this.description}}</td>
+									<td class="ellipsis"{{this.description}}</td>
 
 										</tr>
 									  <tr>
@@ -1419,7 +1427,7 @@ td, th {
 
 
 									</table>
-
+</div>
 
                   <form action="/school/reviewadd/{{this._id}}"  method="post" class="form-box">
 
