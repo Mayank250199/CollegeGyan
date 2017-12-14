@@ -1201,6 +1201,19 @@ html, body, div, span, applet, object, iframe, blockquote, pre, a, abbr, acronym
 			}
 
 		}
+		
+		
+		table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
 </style>
 <nav class="navbar navbar-inverse  navbar-fixed-top" id="my-navbar" role"navigation">
 					<div class="container">
@@ -1340,13 +1353,51 @@ html, body, div, span, applet, object, iframe, blockquote, pre, a, abbr, acronym
 							<div class="box">
 								<a href="User_data/{{this.image}}" class="image fit"><img src="/User_data/{{this.image}}" alt="" /></a>
 								<div class="inner">
-									<h3>College Name:&nbsp;&nbsp;{{this.collegename}}</h3>
+									<!--<h3>College Name:&nbsp;&nbsp;{{this.collegename}}</h3>
 									<p>Website{{this.website}}</p>
 									<p>State{{this.state}}</p>
                   <p>Type{{this.typeOf}}</p>
                   <p>Courses{{this.courses}}</p>
                   <p>Description{{this.description}}</p>
-									<p>Rating:&nbsp;&nbsp;{{this.comment.length}}/10</p>
+									<p>Rating:&nbsp;&nbsp;{{this.comment.length}}/10</p>-->
+									
+									<table>
+
+  <tr>
+    <td>College Name</td>
+		<td>{{this.collegename}}</td>
+	</tr>
+	<tr>
+		<td>Website</td>
+		<td>{{this.website}}</td>
+	</tr>
+	<tr>
+		<td>State</td>
+		<td>{{this.state}}</td>
+	</tr>
+	<tr>
+<td>Type of</td>
+<td>{{this.typeof}}</td>
+
+	</tr>
+	<tr>
+
+		  <td>Courses</td>
+			<td>{{this.courses}}</td>
+	</tr>
+	<tr>
+<td>Description</td>
+<td>{{this.description}}</td>
+
+	</tr>
+  <tr>
+    <td>Rating</td>
+		<td>{{this.comment.length}}/10</td>
+  </tr>
+
+
+</table>
+
                   <form action="/college/reviewadd/{{this._id}}"  method="post" class="form-box">
 
 		 <input type="text"  name="review" class="inp" placeholder="review" required>
