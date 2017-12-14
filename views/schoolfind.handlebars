@@ -73,7 +73,7 @@ html, body, div, span, applet, object, iframe, blockquote, pre, a, abbr, acronym
 	}
 
 	body {
-		background: #202024;
+		background: url(../images/dashboard.jpg);
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -1362,13 +1362,13 @@ html, body, div, span, applet, object, iframe, blockquote, pre, a, abbr, acronym
 							<div class="box">
 								<a href="User_data/{{this.image}}" class="image fit"><img src="/User_data/{{this.image}}" alt="" /></a>
 								<div class="inner">
-									<h3>school Name:&nbsp;&nbsp;{{this.schoolname}}</h3>
-									<p>{{this.website}}</p>
-									<p>{{this.state}}</p>
-                  <p>{{this.typeOf}}</p>
-                  <p>{{this.Catagory}}</p>
-                  <p>{{this.description}}</p>
-		  <p>rating:&nbsp;&nbsp;{{this.comment.length}}/10</p>
+									<h3>School Name:&nbsp;&nbsp;{{this.schoolname}}</h3>
+									<a>Website:{{this.website}}</a>
+									<p>State{{this.state}}</p>
+                  <p>Type:{{this.typeOf}}</p>
+                  <p>Category:{{this.Catagory}}</p>
+                  <p>Description:{{this.description}}</p>
+									<p>Rating:&nbsp;&nbsp;{{this.comment.length}}/10</p>
                   <form action="/school/reviewadd/{{this._id}}"  method="post" class="form-box">
 
 		 <input type="text"  name="review" class="inp" placeholder="review" required>
