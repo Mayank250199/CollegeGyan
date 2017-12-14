@@ -73,7 +73,7 @@ html, body, div, span, applet, object, iframe, blockquote, pre, a, abbr, acronym
 	}
 
 	body {
-		background: #202024;
+		background: url(../images/dashboard.jpg);
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -1212,7 +1212,7 @@ html, body, div, span, applet, object, iframe, blockquote, pre, a, abbr, acronym
 
 						</button>
 
-						<a class="navbar-brand"  id="name" style="color:white" href="/home">CollegeGyan</a>
+						<a class="navbar-brand"  id="name" style="color:white" href="/home">Access</a>
 					</div>
 
 					<div class="collapse navbar-collapse  " id="navbar-collapse">
@@ -1341,12 +1341,12 @@ html, body, div, span, applet, object, iframe, blockquote, pre, a, abbr, acronym
 								<a href="User_data/{{this.image}}" class="image fit"><img src="/User_data/{{this.image}}" alt="" /></a>
 								<div class="inner">
 									<h3>College Name:&nbsp;&nbsp;{{this.collegename}}</h3>
-									<p>{{this.website}}</p>
-									<p>{{this.state}}</p>
-                  <p>{{this.typeOf}}</p>
-                  <p>{{this.courses}}</p>
-                  <p>{{this.description}}</p>
-		  <p>rating:&nbsp;&nbsp;{{this.comment.length}}/10</p>
+									<p>Website{{this.website}}</p>
+									<p>State{{this.state}}</p>
+                  <p>Type{{this.typeOf}}</p>
+                  <p>Courses{{this.courses}}</p>
+                  <p>Description{{this.description}}</p>
+									<p>Rating:&nbsp;&nbsp;{{this.comment.length}}/10</p>
                   <form action="/college/reviewadd/{{this._id}}"  method="post" class="form-box">
 
 		 <input type="text"  name="review" class="inp" placeholder="review" required>
