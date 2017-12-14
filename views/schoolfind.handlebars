@@ -76,6 +76,10 @@ html, body, div, span, applet, object, iframe, blockquote, pre, a, abbr, acronym
 		background: #202024;
 	}
 
+.back{
+		background: url(../images/dashboard.jpg)
+	}
+
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
 			-moz-animation: none !important;
 			-webkit-animation: none !important;
@@ -1214,6 +1218,7 @@ td, th {
 		padding: 8px;
 }
 </style>
+<div class="back">
 <nav class="navbar navbar-inverse  navbar-fixed-top" id="my-navbar" role"navigation">
 					<div class="container">
 					<div class="navbar-header">
@@ -1323,7 +1328,7 @@ td, th {
 </label>
 </div>
 
-<p style="color:black; font-size: 20px"> Q1. What location looking for?</p>
+<p style="color:black; font-size: 20px"> Q2. What location looking for?</p>
 <select  name="state" onchange="location=this.value;" required>
 <option style="color:black" value="">Search by State</option>
 <option style="color:black"value="/schoolfind/school/Andaman and Nicobar Islands">Andaman and Nicobar Islands </option>
@@ -1433,6 +1438,7 @@ td, th {
 								{{else}}
   <p class="empty">No Result Found</p>
               {{/each}}
+</div>
 </div>
 </div>
 </div>
